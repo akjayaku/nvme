@@ -1,0 +1,57 @@
+{
+  "hosts": [
+    {
+      "nqn": "hostnqn"
+    }
+  ],
+  "ports": [
+    {
+      "addr": {
+        "adrfam": "ipv4",
+        "traddr": "192.168.1.100",
+        "treq": "not specified",
+        "trsvcid": "4420",
+        "trtype": "tcp"
+      },
+      "ana_groups": [
+        {
+          "ana": {
+            "state": "optimized"
+          },
+          "grpid": 1
+        }
+      ],
+      "param": {
+        "inline_data_size": "16384"
+      },
+      "portid": 1,
+      "referrals": [],
+      "subsystems": [
+        "nqn.2014-08.org.nvmexpress:uuid:d8e3d5b0-769f-4f78-8d24-5d713f41eb89"
+      ]
+    }
+  ],
+  "subsystems": [
+    {
+      "allowed_hosts": [],
+      "attr": {
+        "allow_any_host": "1",
+        "serial": "366ed6ba3a24d3cb",
+        "version": "1.3"
+      },
+      "namespaces": [
+        {
+          "ana_grpid": 1,
+          "device": {
+            "nguid": "ef90689c-6c46-d44c-89c1-4067801309a8",
+            "path": "/dev/sdb",
+            "uuid": "1e93ca3a-b618-46bd-a56f-7c101678fc51"
+          },
+          "enable": 1,
+          "nsid": 1
+        }
+      ],
+      "nqn": "nqn.2014-08.org.nvmexpress:uuid:d8e3d5b0-769f-4f78-8d24-5d713f41eb89"
+    }
+  ]
+}
